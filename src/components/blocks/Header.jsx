@@ -24,6 +24,10 @@ function Header() {
           <h2 className="tag-line">{titles[index]}</h2>
         </CSSTransition>
       </SwitchTransition>
+      <a className="linkedin-button" href="https://www.linkedin.com/in/daniel-hanna-dev" target="_blank" rel="noopener noreferrer">
+        <img className="link-icon" src="/images/icons/linkin-yellow.svg" alt="Linkedin" />
+        {/* <p>Linkedin</p> */}
+      </a>
     </header>
   );
 }
