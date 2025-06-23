@@ -1,0 +1,20 @@
+{
+  "skills": [
+    { "id": 0, "name": "Photoshop", "icon": "/images/icons/photoshop.png" },
+    { "id": 1, "name": "Illustrator", "icon": "/images/icons/illustrator.png" },
+    { "id": 2, "name": "Maya", "icon": "/images/icons/maya.webp" },
+    { "id": 3, "name": "3Ds Max", "icon": "/images/icons/3ds.webp" },
+    { "id": 4, "name": "Express.js", "icon": "/images/icons/express.png" },
+    { "id": 5, "name": "Node.js", "icon": "/images/icons/nodejs.png" },
+    { "id": 6, "name": "React", "icon": "/images/icons/react.png" },
+    { "id": 7, "name": "Vite", "icon": "/images/icons/vite.png" },
+    { "id": 8, "name": "C Sharp", "icon": "/images/icons/csharp.png" },
+    { "id": 9, "name": "JavaScript", "icon": "/images/icons/javascript.png" },
+    { "id": 10, "name": "Postman", "icon": "/images/icons/postman.svg" },
+    { "id": 11, "name": "processing", "icon": "/images/icons/processing.svg" },
+    { "id": 12, "name": "Canvas LMS", "icon": "/images/icons/canvas.png" },
+    { "id": 13, "name": "SQL", "icon": "/images/icons/sql.png" },
+    { "id": 14, "name": "PosgreSQL", "icon": "/images/icons/postgres.png" },
+    { "id": 15, "name": "Unity", "icon": "/images/icons/unity.png" }
+  ]
+}

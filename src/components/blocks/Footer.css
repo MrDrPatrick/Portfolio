@@ -1,0 +1,22 @@
+#footer {
+  /* height: 7vh; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 235, 248);
+}
+
+.bottom-text {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(10, 53, 94);
+}
+
+.link-icon {
+  height: 30px;
+  margin-top: 10px;
+}

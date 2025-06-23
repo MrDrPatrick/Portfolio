@@ -1,0 +1,14 @@
+{
+  "projects": [
+    { "id": 0, "title": "Portfolio", "tech": ["Ract", "Vite", "JavaScript", "HTML", "CSS"], "imgSRC": "/images/thumbnails/portfolio.png", "hasLink": false, "link": "You're Already Here!" },
+    { "id": 1, "title": "Equity Village", "tech": ["Unity", "C#", "Azure PlayFab", "Photoshop"], "imgSRC": "/images/thumbnails/equity.png", "hasLink": false, "link": "Link Unavaliable" },
+    { "id": 2, "title": "Japan Trip Visualization", "tech": ["React", "Vite", "JavaScript", "HTML", "CSS"], "imgSRC": "/images/thumbnails/jpntrp.png", "hasLink": false, "link": "Coming Soon" },
+    { "id": 3, "title": "Data Helix", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/datahelix.png", "hasLink": false, "link": "Link Unavaliable" },
+    { "id": 4, "title": "People Defend", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/PD_Menu.png", "hasLink": false, "link": "Link Unavaliable" },
+    { "id": 5, "title": "Couch Bros", "tech": ["Photoshop"], "imgSRC": "/images/thumbnails/bros.png", "hasLink": true, "link": "https://v3.globalgamejam.org/2015/games/couch-bros" },
+    { "id": 6, "title": "Package Please", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/packagepees.png", "hasLink": true, "link": "https://v3.globalgamejam.org/2018/games/package-please" },
+    { "id": 7, "title": "FourCast", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/fourcast.png", "hasLink": true, "link": "https://v3.globalgamejam.org/2016/games/fourcast" },
+    { "id": 8, "title": "Kinderbloben", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/kinder.jpg", "hasLink": true, "link": "https://v3.globalgamejam.org/2014/games/kinderbloben" },
+    { "id": 9, "title": "Tower Game", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/TG_05.png", "hasLink": false, "link": "Link Unavaliable" }
+  ]
+}

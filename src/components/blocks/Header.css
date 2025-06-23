@@ -1,0 +1,66 @@
+#header {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-name {
+  font-family: "Noto Sans", sans-serif;
+  color: #d4a23c;
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px black;
+}
+.tag-line {
+  font-family: "Quicksand", sans-serif;
+  color: #bbc7d1;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px black;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.dust-enter {
+  opacity: 0;
+  transform: scale(1.2);
+  filter: blur(4px);
+}
+.dust-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+  transition: opacity 1s ease, trnasform 1s ease, filter 1s ease;
+}
+
+.dust-exit {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+}
+.dust-exit-active {
+  opacity: 1;
+  transform: scale(0.8);
+  filter: blur(4px);
+  transition: opacity 0.8s ease, trnasform 0.8s ease, filter 0.8s ease;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, rgb(10, 53, 94), rgb(37, 103, 165), rgb(10, 53, 94));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

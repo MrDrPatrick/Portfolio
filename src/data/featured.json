@@ -1,0 +1,8 @@
+{
+  "featuredItems": [
+    { "id": 0, "title": "Equity Village", "tech": ["Unity", "C#", "Azure PlayFab", "Photoshop"], "hasLink": false, "link": "Link Unavaliable", "desc": "A project designed for a client. Created as a companion app to a college course, or work icebreaker event, this app allows users to interact with each other in order to grow a beautiful garden.", "imgSRC": "/images/thumbnails/equity.png" },
+    { "id": 1, "title": "Japan Trip Visualization", "tech": ["React", "Vite", "JavaScript", "HTML", "CSS"], "hasLink": false, "link": "Coming Soon", "desc": "A personal project to share with my family. This details a trip to Japan that my partner and I will be going on in Novemeber 2025.", "imgSRC": "/images/thumbnails/jpntrp.png" },
+    { "id": 2, "title": "Data Helix", "tech": ["Unity", "C#", "Maya", "Photoshop"], "hasLink": false, "link": "Link Unavaliable", "desc": "Top five nominee for the E3 Collegiate Competition in 2014. A 3D puzzle game designed in a puzzle-box fasion where you must rotate the stage to open the path forward.", "imgSRC": "/images/thumbnails/datahelix.png" },
+    { "id": 3, "title": "People Defend", "tech": ["Unity", "C#", "Maya", "Photoshop"], "hasLink": false, "link": "Link Unavaliable", "desc": "A personal project to create a complete game with scalability. You play as a tower and must shoot monsters trying to attack the people as they run to you.", "imgSRC": "/images/thumbnails/PD_Menu.png" }
+  ]
+}
