@@ -1,0 +1,20 @@
+.swiper {
+  width: 900px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.swiper-slide img {
+  width: 900px;
+  height: 450px;
+}
+
+.gamepage-header {
+  text-align: center;
+  padding: 2%;
+}
+
+.gamepage-header > h1 {
+  font-size: 4rem;
+  font-family: "Noto Sans", sans-serif;
+}

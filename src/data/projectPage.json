@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Data Helix",
+      "images": [
+        { "id": 0, "src": "/images/screenshots/Test_03.png" },
+        { "id": 1, "src": "/images/screenshots/Test_02.png" },
+        { "id": 1, "src": "/images/screenshots/PProcessing.png" }
+      ],
+      "text": [
+        { "id": 0, "hasImage": true, "side": "left", "color": "blue", "title": "What is it?", "src": "/images/screenshots/Test_01.png", "body": "Data Helix is a 3D puzzle game where you are tasked to navigate a puzzle box maze in order to find the exit. You switch between a first person view, which allows you to navigate the space, and a top-down view, which allows you to manipulate the space." },
+        { "id": 1, "hasImage": false, "side": "left", "color": "white", "title": "Programming", "src": null, "body": "I started the project as the lead programmer. My focus at the time was functionality. I started with the camera system which allowed players to swap between a first person and top-down perspective. I also created the initial system that allowed players to rotate the gamespace when in the top down view. The rest of my time in this role leaned more designer doing things like putting the levels together and making sure the game flowed from stage to stage properly." },
+        { "id": 2, "hasImage": true, "side": "left", "color": "blue", "title": "Art", "src": "/images/screenshots/Shaders_02.gif", "body": "After a little bit I passed the role on in order to switch to the lead artist. From here my focus was on textures, models, shaders, and the rest. I learned Unity's HDR pipeline in order to bring the game into the world of post-processing, which included learning how to write shaders." }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "People Defend",
+      "images": [
+        { "id": 0, "src": "/images/screenshots/PD_01.png" },
+        { "id": 1, "src": "/images/screenshots/PD_02.png" },
+        { "id": 2, "src": "/images/screenshots/PD_03.png" },
+        { "id": 3, "src": "/images/screenshots/PD_04.png" },
+        { "id": 4, "src": "/images/screenshots/PD_05.png" }
+      ],
+      "text": [
+        { "id": 0, "hasImage": false, "side": "left", "color": "blue", "title": "What is it?", "src": null, "body": "People Defend is a game I made on my own as a bit of a challenge to myself. I wanted to create a game that would be scalable if desired without losing the scope of the project." },
+        { "id": 1, "hasImage": false, "side": "left", "color": "white", "title": "The Idea Behind The Game", "src": "/images/screenshots/PD_03.png", "body": "This game was designed to mimic a carnival game. The objects are designed to look like they were drawn on cardboard. Outside of extra artwork, the game could be scaled for different paths and creatures to be added." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Unamed Tower Game",
+      "images": [
+        { "id": 0, "src": "/images/screenshots/TG_01.png" },
+        { "id": 1, "src": "/images/screenshots/TG_02.png" },
+        { "id": 2, "src": "/images/screenshots/TG_03.png" },
+        { "id": 3, "src": "/images/screenshots/TG_04.png" },
+        { "id": 4, "src": "/images/screenshots/TG_05.png" }
+      ],
+      "text": [
+        { "id": 0, "hasImage": true, "side": "left", "color": "blue", "title": "What is it?", "src": "/images/screenshots/Slime_Concept_04.png", "body": "So this project wasn't finished but had a significant amount of time and energy put into it. It is a turn-based tactical rpg where you explored a tower with your group of characters. It was going to be designed as a rouge-like as well, with proceduraly generated stages to keep the intrest going." },
+        { "id": 1, "hasImage": true, "side": "left", "color": "blue", "title": "The Idea Behind The Game", "src": "/images/screenshots/Shaman_Concept_01.png", "body": "This game was designed to fill a void in the style of turn-based tacticle rpgs that I found. I wanted to make my perfect version, which included rouge-like elements. I learned how to create procedural tile-based landscapes and even included design bases such as river, hill, valley, etc. " }
+      ]
+    }
+  ]
+}

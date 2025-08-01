@@ -1,0 +1,35 @@
+.wrapper > h2 {
+  font-size: 3rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.content p {
+  font-size: 1.5rem;
+  text-wrap: balance;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+
+.text-image {
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 0 black;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.image-container {
+  align-self: center;
+}
