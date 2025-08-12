@@ -8,7 +8,7 @@ function GameText(props) {
   if (props.side == "left") {
     return (
       <div className={props.color}>
-        <div className="wrapper" style={customStyle}>
+        <div className="wrapper">
           <h2>{props.title}</h2>
           <div className="content">
             <div className="text-container">
@@ -22,7 +22,7 @@ function GameText(props) {
   } else {
     return (
       <div className={props.color}>
-        <div className="wrapper" style={customStyle}>
+        <div className="wrapper">
           <h2>{props.title}</h2>
           <div className="content">
             <div className="image-container">{props.hasImage && <img className="text-image" src={props.imgSource} alt="" />}</div>

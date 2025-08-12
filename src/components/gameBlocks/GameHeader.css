@@ -18,3 +18,40 @@
   font-size: 4rem;
   font-family: "Noto Sans", sans-serif;
 }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .swiper {
+    width: 900px;
+    height: 450px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .swiper {
+    width: 800px;
+    height: 400px;
+  }
+  .swiper-slide img {
+    width: 800px;
+    height: 400px;
+  }
+}
+@media (min-width: 500px) and (max-width: 899px) {
+  .swiper {
+    width: 700px;
+    height: 350px;
+  }
+  .swiper-slide img {
+    width: 700px;
+    height: 350px;
+  }
+}
+@media (max-width: 750px) {
+  .swiper {
+    width: 350px;
+    height: 175px;
+  }
+  .swiper-slide img {
+    width: 350px;
+    height: 175px;
+  }
+}
