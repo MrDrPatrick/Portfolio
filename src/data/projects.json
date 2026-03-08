@@ -1,6 +1,6 @@
 {
   "projects": [
-    { "id": 0, "linkType": "in", "hasLink": false, "title": "Portfolio", "tech": ["Ract", "Vite", "JavaScript", "HTML", "CSS"], "imgSRC": "/images/thumbnails/portfolio.png", "link": "You're Already Here!" },
+    { "id": 0, "linkType": "here", "hasLink": false, "title": "Portfolio", "tech": ["Ract", "Vite", "JavaScript", "HTML", "CSS"], "imgSRC": "/images/thumbnails/portfolio.png", "link": "You're Already Here!" },
     { "id": 1, "linkType": "in", "hasLink": false, "title": "Equity Village", "tech": ["Unity", "C#", "Azure PlayFab", "Photoshop"], "imgSRC": "/images/thumbnails/equity.png", "link": "Link Unavaliable" },
     { "id": 2, "linkType": "out", "hasLink": true, "title": "Japan Trip Visualization", "tech": ["React", "Vite", "JavaScript", "HTML", "CSS"], "imgSRC": "/images/thumbnails/jpntrp.png", "link": "https://dtjapantrip.netlify.app/" },
     { "id": 3, "linkType": "in", "hasLink": true, "title": "Data Helix", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/datahelix.png", "link": "/games/0" },
@@ -9,6 +9,6 @@
     { "id": 6, "linkType": "out", "hasLink": true, "title": "Package Please", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/packagepees.png", "link": "https://v3.globalgamejam.org/2018/games/package-please" },
     { "id": 7, "linkType": "out", "hasLink": true, "title": "FourCast", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/fourcast.png", "link": "https://v3.globalgamejam.org/2016/games/fourcast" },
     { "id": 8, "linkType": "out", "hasLink": true, "title": "Kinderbloben", "tech": ["Unity", "C#", "Photoshop"], "imgSRC": "/images/thumbnails/kinder.jpg", "link": "https://v3.globalgamejam.org/2014/games/kinderbloben" },
-    { "id": 9, "linkType": "in", "hasLink": true, "title": "Untitled Tower Game", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/TG_05.png", "link": "/games/2" }
+    { "id": 9, "linkType": "in", "hasLink": true, "title": "Tower Game", "tech": ["Unity", "C#", "Maya", "Photoshop"], "imgSRC": "/images/thumbnails/TG_05.png", "link": "/games/2" }
   ]
 }

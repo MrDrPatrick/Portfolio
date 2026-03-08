@@ -30,7 +30,7 @@ function ProjectCard(props) {
           <div className="tech-flex">{props.tech.map(createTags)}</div>
           <p className="project-card-title">{props.title}</p>
           <div className="project-card-overlay">
-            <Link className="project-overlay-button" to={props.link}>
+            <Link className="project-overlay-button" to={props.link} target="_blank" rel="noopener noreferrer">
               Visit
             </Link>
           </div>
@@ -43,9 +43,9 @@ function ProjectCard(props) {
         <img className="project-card-thumbnail" src={props.image} alt="Thumbnail" />
         <div className="tech-flex">{props.tech.map(createTags)}</div>
         <p className="project-card-title">{props.title}</p>
-        <div className="project-card-overlay">
-          <p className="project-overlay-no-button">{props.link}</p>
-        </div>
+        {/*<div className="feature-card-overlay">
+          <p className="feature-overlay-no-button">{props.link}</p>
+        </div>*/}
       </div>
     );
   }

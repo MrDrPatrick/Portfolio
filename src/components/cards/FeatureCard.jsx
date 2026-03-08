@@ -10,7 +10,7 @@ function FeatureCard(props) {
   }
 
   if (props.hasLink) {
-    if (props.linkType == "out") {
+    if (props.linkType === "out") {
       return (
         <div className="feature-flex">
           <img className="card-thumbnail" src={props.image} alt="Thumbnail" />
@@ -32,7 +32,7 @@ function FeatureCard(props) {
           <p className="card-title">{props.title}</p>
           <p className="card-desc">{props.desc}</p>
           <div className="feature-card-overlay">
-            <Link className="feature-overlay-button" to={props.link}>
+            <Link className="feature-overlay-button" to={props.link} target="_blank" rel="noopener noreferrer">
               Visit
             </Link>
           </div>
@@ -46,9 +46,9 @@ function FeatureCard(props) {
         <div className="tech-flex">{props.tech.map(createTags)}</div>
         <p className="card-title">{props.title}</p>
         <p className="card-desc">{props.desc}</p>
-        <div className="feature-card-overlay">
+        {/*<div className="feature-card-overlay">
           <p className="feature-overlay-no-button">{props.link}</p>
-        </div>
+        </div>*/}
       </div>
     );
   }

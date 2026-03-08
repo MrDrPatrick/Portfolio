@@ -18,7 +18,7 @@ function GameHeader(props) {
 
   return (
     <div className="gamepage-header">
-      <Swiper modules={[Pagination, Autoplay]} spaceBetween={50} slidesPerView={1} loop={true} pagination={{ clickable: true }} autoplay={{ delay: 4000, pauseOnMouseEnter: true }}>
+      <Swiper modules={[Pagination, Autoplay, Navigation]} spaceBetween={50} slidesPerView={1} loop={true} navigation={true} pagination={{ clickable: true }} autoplay={{ delay: 4000, pauseOnMouseEnter: true }}>
         {props.imageList.map(makeSlides)}
       </Swiper>
       <h1>{props.title}</h1>
